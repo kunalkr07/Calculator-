@@ -19,21 +19,21 @@ switch(userNumber){
 
     case 2:
      total=num1-num2;
-     console.log(`The Addition of ${num1} - ${num2} = ${total}`);
+     console.log(`The Substraction of ${num1} - ${num2} = ${total}`);
      break;
 
     case 3:
             total=num1/num2;
-            console.log(`The Addition of ${num1} / ${num2} = ${total}`);
+            console.log(`The Division of ${num1} / ${num2} = ${total}`);
             break;
     case 4:
      total=num1*num2;
-     console.log(`The Addition of ${num1} * ${num2} = ${total}`);
+     console.log(`The Multiplication of ${num1} * ${num2} = ${total}`);
      break;
 
     case 5:
      total=num1%num2;
-     console.log(`The Addition of ${num1} % ${num2} = ${total}`);
+     console.log(`The Modulos of ${num1} % ${num2} = ${total}`);
      break;
 
      default:
